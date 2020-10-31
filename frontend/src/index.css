@@ -35,6 +35,24 @@ code {
 
 #main .btn-lg {
   margin-top: 20px;
+  color: #373A59;
+  background-color: #50FA7B;
+  border: none;
+  transition: transform 500ms, box-shadow 500ms, background-color 200ms;
+  box-shadow: 3px 3px #2f324d;
+}
+
+#main .btn-lg:hover {
+    box-shadow: none;
+    transform: scale(1.03, 1.03);
+}
+
+#main .btn-lg:focus {
+    outline: none;
+}
+
+#main .btn-lg:active {
+    background-color: #4ada6e;
 }
 
 .navbar-brand img {
@@ -50,9 +68,15 @@ code {
 }
 
 #under-main p {
-  font-size: 1.5em;
-  font-weight: lighter;
+  font-size: 2.5em;
+  font-style: normal;
+  font-weight: bold;
   padding-bottom: 10px;
+}
+
+#under-main iframe {
+    border: 2px solid #6363637c;
+    border-radius: 6px;
 }
 
 #footer {
@@ -66,3 +90,8 @@ code {
   margin-bottom: 7px;
 }
 
+#footer .contribute-link {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
