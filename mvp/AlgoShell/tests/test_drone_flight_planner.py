@@ -1,5 +1,5 @@
 import unittest
-from solutions import *
+from solutions import calc_drone_min_energy
 
 class DroneFlightPlanner(unittest.TestCase):
     def test_case_1(self):

@@ -1,5 +1,5 @@
 import unittest
-from solutions import *
+from solutions import bracket_match
 
 class BracketMatch(unittest.TestCase):
     def test_case_1(self):

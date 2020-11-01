@@ -1,5 +1,5 @@
 import unittest
-from solutions import *
+from solutions import num_of_paths_to_dest
 
 class NumberOfPaths(unittest.TestCase):
     def test_case_1(self):

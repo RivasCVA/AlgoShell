@@ -1,5 +1,5 @@
 import unittest
-from solutions import *
+from solutions import array_of_array_products
 
 class ArrayOfArrayProducts(unittest.TestCase):
     def test_case_1(self):

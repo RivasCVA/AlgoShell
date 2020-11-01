@@ -1,5 +1,5 @@
 import unittest
-from solutions import *
+from solutions import pancake_sort
 
 class PancakeSort(unittest.TestCase):
     def test_case_1(self):
