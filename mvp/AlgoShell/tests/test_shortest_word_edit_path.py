@@ -1,5 +1,5 @@
 import unittest
-from solutions import *
+from solutions import shortest_word_edit_path
 
 class ShortestWordEditPath(unittest.TestCase):
     def test_case_1(self):
@@ -40,6 +40,8 @@ class ShortestWordEditPath(unittest.TestCase):
         expected = 2
         actual = shortest_word_edit_path(source, target, words)
 
+        self.assertEqual(actual, expected)
+
     def test_case_5(self):
         source = 'abc'
         target = 'ab'
@@ -48,6 +50,8 @@ class ShortestWordEditPath(unittest.TestCase):
         expected = -1
         actual = shortest_word_edit_path(source, target, words)
 
+        self.assertEqual(actual, expected)
+
     def test_case_6(self):
         source = 'aa'
         target = 'bbb'
@@ -55,6 +59,8 @@ class ShortestWordEditPath(unittest.TestCase):
 
         expected = -1
         actual = shortest_word_edit_path(source, target, words)
+
+        self.assertEqual(actual, expected)
 
 if __name__ == '__main__':
     unittest.main()

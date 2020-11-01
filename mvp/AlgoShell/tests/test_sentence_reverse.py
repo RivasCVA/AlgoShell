@@ -1,5 +1,5 @@
 import unittest
-from solutions import *
+from solutions import sentence_reverse
 
 class SentenceReverse(unittest.TestCase):
     def test_case_1(self):

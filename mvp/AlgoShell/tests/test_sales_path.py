@@ -1,5 +1,5 @@
 import unittest
-from solutions import *
+from solutions import get_cheapest_cost
 
 class SalesPath(unittest.TestCase):
     class Node:

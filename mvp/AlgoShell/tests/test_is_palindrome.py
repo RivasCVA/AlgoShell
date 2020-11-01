@@ -1,5 +1,5 @@
 import unittest
-from solutions import *
+from solutions import is_palindrome
 
 class IsPalindrome(unittest.TestCase):
     def test_case_1(self):

@@ -1,5 +1,5 @@
 import unittest
-from solutions import *
+from solutions import abs_sort
 
 class AbsoluteValueSort(unittest.TestCase):
     def test_case_1(self):
