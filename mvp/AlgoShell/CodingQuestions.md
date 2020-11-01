@@ -253,3 +253,32 @@ route = [
 **Please follow these steps:**
 1. Write your solution in `solutions/drone_flight_planner.py`
 2. Test your solution with `./AlgoShell.sh DroneFlightPlanner`
+
+---
+
+### 10. Shortest Word Edit Path
+Given two words `source` and `target`, and a list of words `words`, find the length of the shortest series of edits that transforms `source` to `target`.
+
+Each edit must change exactly one letter at a time, and each intermediate word (and the final target word) must exist in `words`.
+
+If the task is impossible, return -1.
+
+**Examples:**
+```python
+# Input
+source = "bit", target = "dog"
+words = ["but", "put", "big", "pot", "pog", "dog", "lot"]
+
+# Output
+5
+# explanation: bit -> but -> put -> pot -> pog -> dog has 5 transitions.
+```
+
+```python
+# Input
+source = "no", target = "go"
+words = ["to"]
+
+# Output
+-1
+```

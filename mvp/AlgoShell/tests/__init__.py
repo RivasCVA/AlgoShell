@@ -7,3 +7,4 @@ from .test_number_of_paths import NumberOfPaths
 from .test_pancake_sort import PancakeSort
 from .test_sales_path import SalesPath
 from .test_sentence_reverse import SentenceReverse
+from .test_shortest_word_edit_path import ShortestWordEditPath
